@@ -6,7 +6,7 @@
 
 1. Open terminal  
 
-2.Command on terminal: sudo gem install cocoapods
+2. Command on terminal: sudo gem install cocoapods
 
 3. set your project path on terminal.
 
@@ -14,7 +14,7 @@
 
 5. go to pod file of your project and adding pod which you want to install
 
-6 . added in pod file : pod 'AFNetworking', '~> 2.5
+6. added in pod file : pod 'AFNetworking', '~> 2.5
 
 7. Command : Pod install
 
