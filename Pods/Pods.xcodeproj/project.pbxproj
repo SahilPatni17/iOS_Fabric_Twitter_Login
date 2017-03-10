@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		769CDFDB062EDA9A35C93DC330CF67FD /* Pods-FabricWithTwitterLoginUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CC320F2264BB42D144D30E3C3FF660 /* Pods-FabricWithTwitterLoginUITests-dummy.m */; };
+		7B55C117E3D6CFB1EC56BC7014F64233 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		7F2538A437054B23616649CDC10147FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		A7AEC06B286C50E2F1A802612C33132E /* Pods-FabricWithTwitterLoginUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BEE5B08E9907629FDEE6E334BB58C35 /* Pods-FabricWithTwitterLoginUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE12202BC38BCB918A4336C4510AB965 /* Pods-FabricWithTwitterLogin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 038C21715433187BAB7C550DCA439311 /* Pods-FabricWithTwitterLogin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9A130AE0993B89ADDE4245A2AB9C411 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		CE5A326870BBD8E433A8974AC4CC2395 /* Pods-FabricWithTwitterLoginTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0342E87F84CBDA7414C6CC734DDEC72D /* Pods-FabricWithTwitterLoginTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F96964E9ECB4D54C3BF15D6B202BA7E2 /* Pods-FabricWithTwitterLogin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A39970CE57D9B131FA20FE6A7CE77BC /* Pods-FabricWithTwitterLogin-dummy.m */; };
+		FB9F61812CD2A4E0CE43BF38CA058E6F /* Pods-FabricWithTwitterLoginTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F704DE220F9C10B221A6FB178C4DC61 /* Pods-FabricWithTwitterLoginTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0342E87F84CBDA7414C6CC734DDEC72D /* Pods-FabricWithTwitterLoginTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FabricWithTwitterLoginTests-umbrella.h"; sourceTree = "<group>"; };
+		038C21715433187BAB7C550DCA439311 /* Pods-FabricWithTwitterLogin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FabricWithTwitterLogin-umbrella.h"; sourceTree = "<group>"; };
+		09B50C74F2B57565D17954EB8C7DCC6E /* Pods-FabricWithTwitterLoginUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FabricWithTwitterLoginUITests.modulemap"; sourceTree = "<group>"; };
+		0ADFD02581C3693D5DFB74ED89A5C487 /* Pods_FabricWithTwitterLoginTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FabricWithTwitterLoginTests.framework; path = "Pods-FabricWithTwitterLoginTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		114ABBC3EBCD3D35182C1DF58A822641 /* Pods-FabricWithTwitterLogin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FabricWithTwitterLogin.modulemap"; sourceTree = "<group>"; };
+		15B34C8FA11861242FCF0F2D319BF98C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16CC320F2264BB42D144D30E3C3FF660 /* Pods-FabricWithTwitterLoginUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FabricWithTwitterLoginUITests-dummy.m"; sourceTree = "<group>"; };
+		17BEA8CA6C7E0E5300C8ACD0B18075DA /* Pods-FabricWithTwitterLogin-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FabricWithTwitterLogin-resources.sh"; sourceTree = "<group>"; };
+		223A84E8BC19E18BA6EDD6E73CDE9B7F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22C8B12A43493F086994EA3B0151A54B /* Pods-FabricWithTwitterLoginUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FabricWithTwitterLoginUITests-resources.sh"; sourceTree = "<group>"; };
+		28312186C322A74A61CE43697138CCC6 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = iOS/Fabric.framework; sourceTree = "<group>"; };
+		2A39970CE57D9B131FA20FE6A7CE77BC /* Pods-FabricWithTwitterLogin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FabricWithTwitterLogin-dummy.m"; sourceTree = "<group>"; };
+		2ECAA6A9799CB9EF7DCEEA0D91821BB6 /* Pods-FabricWithTwitterLoginTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FabricWithTwitterLoginTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		30518E966D360D434A6EC65286912B43 /* Pods-FabricWithTwitterLoginUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FabricWithTwitterLoginUITests-frameworks.sh"; sourceTree = "<group>"; };
+		33A381CEFDB03B8F1CC4728D80375AF4 /* Pods-FabricWithTwitterLogin-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FabricWithTwitterLogin-acknowledgements.plist"; sourceTree = "<group>"; };
+		37B6B510FAA11C78B420189CA7D20B11 /* Pods-FabricWithTwitterLoginUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FabricWithTwitterLoginUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3BEE5B08E9907629FDEE6E334BB58C35 /* Pods-FabricWithTwitterLoginUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FabricWithTwitterLoginUITests-umbrella.h"; sourceTree = "<group>"; };
+		3D13AB57742AE082C0B1A98F55BB28DD /* Pods-FabricWithTwitterLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FabricWithTwitterLogin.debug.xcconfig"; sourceTree = "<group>"; };
+		3E396D0EFEB42CA7ADD1D1895A2F6E15 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterCore.framework; path = iOS/TwitterCore.framework; sourceTree = "<group>"; };
+		52A7948B18630F3C8EDC6C53DDC85639 /* Pods_FabricWithTwitterLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FabricWithTwitterLogin.framework; path = "Pods-FabricWithTwitterLogin.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56FFFCB310F2709CF048931574099EB8 /* Pods-FabricWithTwitterLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FabricWithTwitterLogin.release.xcconfig"; sourceTree = "<group>"; };
+		5C233F1282DCB4A2C61B17ECA8453392 /* Pods_FabricWithTwitterLoginUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FabricWithTwitterLoginUITests.framework; path = "Pods-FabricWithTwitterLoginUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		749CBE68EE92D8170F30288A818CD6D8 /* Pods-FabricWithTwitterLoginTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FabricWithTwitterLoginTests-resources.sh"; sourceTree = "<group>"; };
+		77C7978E86F7F6A3441CAABE0D9AD913 /* Pods-FabricWithTwitterLoginTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FabricWithTwitterLoginTests-frameworks.sh"; sourceTree = "<group>"; };
+		7F704DE220F9C10B221A6FB178C4DC61 /* Pods-FabricWithTwitterLoginTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FabricWithTwitterLoginTests-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9BB655D7EF069D2B053FFC3E1626A4A1 /* Pods-FabricWithTwitterLoginUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FabricWithTwitterLoginUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AFE242E75D0A42CEBEFA78F695483209 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1CE91E5B9988DA04403303B68773B06 /* Pods-FabricWithTwitterLoginUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FabricWithTwitterLoginUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B240D65485509CF7EE0998A8DD37E68D /* FABAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FABAttributes.h; path = iOS/Fabric.framework/Headers/FABAttributes.h; sourceTree = "<group>"; };
+		B8C86070DD1A7786A8FB52CE83E20B70 /* Pods-FabricWithTwitterLoginTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FabricWithTwitterLoginTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BBCCF59BD8B77C768DD936C8892A471F /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterKit.framework; path = iOS/TwitterKit.framework; sourceTree = "<group>"; };
+		BE4E4525677D333536AD82BEC0CF226D /* Pods-FabricWithTwitterLoginTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FabricWithTwitterLoginTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D2F9374CAD21B636AFF0C8695562394B /* Pods-FabricWithTwitterLogin-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FabricWithTwitterLogin-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DC2E84A3EC734824805069507F397497 /* Pods-FabricWithTwitterLoginTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FabricWithTwitterLoginTests.modulemap"; sourceTree = "<group>"; };
+		DE1731321D2822CFB0ACAF8CC569CAE7 /* Pods-FabricWithTwitterLoginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FabricWithTwitterLoginTests.release.xcconfig"; sourceTree = "<group>"; };
+		DFEB9418A8A8EB2F5863DFCB9B689717 /* Fabric.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Fabric.h; path = iOS/Fabric.framework/Headers/Fabric.h; sourceTree = "<group>"; };
+		E5F844671CFECD95B1DC4725713B13CC /* TwitterKitResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = iOS/TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle; sourceTree = "<group>"; };
+		EBE4BA9C147C0B67C1CF0B1B72909FC2 /* Pods-FabricWithTwitterLogin-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FabricWithTwitterLogin-frameworks.sh"; sourceTree = "<group>"; };
+		F46F35591054B0F10D243BA0489226AF /* Pods-FabricWithTwitterLoginUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FabricWithTwitterLoginUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A998CE3CEFCCD3C29AEB2857B8F70483 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A130AE0993B89ADDE4245A2AB9C411 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7E06C628DCFF1ACEDCBF76C98BCD6C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B55C117E3D6CFB1EC56BC7014F64233 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F81BCB8E37548697331ABE5C4D15BBCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F2538A437054B23616649CDC10147FD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17A11F737FAE865798D118450678B032 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28312186C322A74A61CE43697138CCC6 /* Fabric.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		323F3FF6FCFD2DB60CFF57C78CB601A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52A7948B18630F3C8EDC6C53DDC85639 /* Pods_FabricWithTwitterLogin.framework */,
+				0ADFD02581C3693D5DFB74ED89A5C487 /* Pods_FabricWithTwitterLoginTests.framework */,
+				5C233F1282DCB4A2C61B17ECA8453392 /* Pods_FabricWithTwitterLoginUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DBD6493E5C509076AE36D8AB0E5A90A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E5F844671CFECD95B1DC4725713B13CC /* TwitterKitResources.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6244FE393E8B9DFF3E7790F0DC742EF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBCCF59BD8B77C768DD936C8892A471F /* TwitterKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				B22FE4A2A7819BC0489C26EE175D17A5 /* Pods */,
+				323F3FF6FCFD2DB60CFF57C78CB601A6 /* Products */,
+				D86B83EC65B4D0CAFB76FA7B86D745A9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		903DD9ADE5A783C51AE10D015DAFCBD9 /* TwitterCore */ = {
+			isa = PBXGroup;
+			children = (
+				B1A0E5407F061703CD8312BBB914D1EF /* Frameworks */,
+			);
+			name = TwitterCore;
+			path = TwitterCore;
+			sourceTree = "<group>";
+		};
+		9CD88076543926CCFD2E3380C0E13022 /* TwitterKit */ = {
+			isa = PBXGroup;
+			children = (
+				6244FE393E8B9DFF3E7790F0DC742EF8 /* Frameworks */,
+				4DBD6493E5C509076AE36D8AB0E5A90A /* Resources */,
+			);
+			name = TwitterKit;
+			path = TwitterKit;
+			sourceTree = "<group>";
+		};
+		B1A0E5407F061703CD8312BBB914D1EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E396D0EFEB42CA7ADD1D1895A2F6E15 /* TwitterCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B22FE4A2A7819BC0489C26EE175D17A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3EE012E55D8C78378CC92DBFFD0E03D /* Fabric */,
+				903DD9ADE5A783C51AE10D015DAFCBD9 /* TwitterCore */,
+				9CD88076543926CCFD2E3380C0E13022 /* TwitterKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B3EE012E55D8C78378CC92DBFFD0E03D /* Fabric */ = {
+			isa = PBXGroup;
+			children = (
+				B240D65485509CF7EE0998A8DD37E68D /* FABAttributes.h */,
+				DFEB9418A8A8EB2F5863DFCB9B689717 /* Fabric.h */,
+				17A11F737FAE865798D118450678B032 /* Frameworks */,
+			);
+			name = Fabric;
+			path = Fabric;
+			sourceTree = "<group>";
+		};
+		B80EADF7013E74524C1B9B98A61C0E99 /* Pods-FabricWithTwitterLogin */ = {
+			isa = PBXGroup;
+			children = (
+				AFE242E75D0A42CEBEFA78F695483209 /* Info.plist */,
+				114ABBC3EBCD3D35182C1DF58A822641 /* Pods-FabricWithTwitterLogin.modulemap */,
+				D2F9374CAD21B636AFF0C8695562394B /* Pods-FabricWithTwitterLogin-acknowledgements.markdown */,
+				33A381CEFDB03B8F1CC4728D80375AF4 /* Pods-FabricWithTwitterLogin-acknowledgements.plist */,
+				2A39970CE57D9B131FA20FE6A7CE77BC /* Pods-FabricWithTwitterLogin-dummy.m */,
+				EBE4BA9C147C0B67C1CF0B1B72909FC2 /* Pods-FabricWithTwitterLogin-frameworks.sh */,
+				17BEA8CA6C7E0E5300C8ACD0B18075DA /* Pods-FabricWithTwitterLogin-resources.sh */,
+				038C21715433187BAB7C550DCA439311 /* Pods-FabricWithTwitterLogin-umbrella.h */,
+				3D13AB57742AE082C0B1A98F55BB28DD /* Pods-FabricWithTwitterLogin.debug.xcconfig */,
+				56FFFCB310F2709CF048931574099EB8 /* Pods-FabricWithTwitterLogin.release.xcconfig */,
+			);
+			name = "Pods-FabricWithTwitterLogin";
+			path = "Target Support Files/Pods-FabricWithTwitterLogin";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D86B83EC65B4D0CAFB76FA7B86D745A9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B80EADF7013E74524C1B9B98A61C0E99 /* Pods-FabricWithTwitterLogin */,
+				FB52ACF2A14492D8AA7E008288A1EAF2 /* Pods-FabricWithTwitterLoginTests */,
+				E5A84CF2E42F31EE29485633E7D944D6 /* Pods-FabricWithTwitterLoginUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E5A84CF2E42F31EE29485633E7D944D6 /* Pods-FabricWithTwitterLoginUITests */ = {
+			isa = PBXGroup;
+			children = (
+				15B34C8FA11861242FCF0F2D319BF98C /* Info.plist */,
+				09B50C74F2B57565D17954EB8C7DCC6E /* Pods-FabricWithTwitterLoginUITests.modulemap */,
+				B1CE91E5B9988DA04403303B68773B06 /* Pods-FabricWithTwitterLoginUITests-acknowledgements.markdown */,
+				F46F35591054B0F10D243BA0489226AF /* Pods-FabricWithTwitterLoginUITests-acknowledgements.plist */,
+				16CC320F2264BB42D144D30E3C3FF660 /* Pods-FabricWithTwitterLoginUITests-dummy.m */,
+				30518E966D360D434A6EC65286912B43 /* Pods-FabricWithTwitterLoginUITests-frameworks.sh */,
+				22C8B12A43493F086994EA3B0151A54B /* Pods-FabricWithTwitterLoginUITests-resources.sh */,
+				3BEE5B08E9907629FDEE6E334BB58C35 /* Pods-FabricWithTwitterLoginUITests-umbrella.h */,
+				37B6B510FAA11C78B420189CA7D20B11 /* Pods-FabricWithTwitterLoginUITests.debug.xcconfig */,
+				9BB655D7EF069D2B053FFC3E1626A4A1 /* Pods-FabricWithTwitterLoginUITests.release.xcconfig */,
+			);
+			name = "Pods-FabricWithTwitterLoginUITests";
+			path = "Target Support Files/Pods-FabricWithTwitterLoginUITests";
+			sourceTree = "<group>";
+		};
+		FB52ACF2A14492D8AA7E008288A1EAF2 /* Pods-FabricWithTwitterLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				223A84E8BC19E18BA6EDD6E73CDE9B7F /* Info.plist */,
+				DC2E84A3EC734824805069507F397497 /* Pods-FabricWithTwitterLoginTests.modulemap */,
+				2ECAA6A9799CB9EF7DCEEA0D91821BB6 /* Pods-FabricWithTwitterLoginTests-acknowledgements.markdown */,
+				BE4E4525677D333536AD82BEC0CF226D /* Pods-FabricWithTwitterLoginTests-acknowledgements.plist */,
+				7F704DE220F9C10B221A6FB178C4DC61 /* Pods-FabricWithTwitterLoginTests-dummy.m */,
+				77C7978E86F7F6A3441CAABE0D9AD913 /* Pods-FabricWithTwitterLoginTests-frameworks.sh */,
+				749CBE68EE92D8170F30288A818CD6D8 /* Pods-FabricWithTwitterLoginTests-resources.sh */,
+				0342E87F84CBDA7414C6CC734DDEC72D /* Pods-FabricWithTwitterLoginTests-umbrella.h */,
+				B8C86070DD1A7786A8FB52CE83E20B70 /* Pods-FabricWithTwitterLoginTests.debug.xcconfig */,
+				DE1731321D2822CFB0ACAF8CC569CAE7 /* Pods-FabricWithTwitterLoginTests.release.xcconfig */,
+			);
+			name = "Pods-FabricWithTwitterLoginTests";
+			path = "Target Support Files/Pods-FabricWithTwitterLoginTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0BE0E0C82FC0EF5D2B5243E1F66F8906 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE12202BC38BCB918A4336C4510AB965 /* Pods-FabricWithTwitterLogin-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC3A5098D0B9852CCBC098406DAAFF90 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5A326870BBD8E433A8974AC4CC2395 /* Pods-FabricWithTwitterLoginTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3D6BFF0C9969CCE5E39283CA11FC382 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7AEC06B286C50E2F1A802612C33132E /* Pods-FabricWithTwitterLoginUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4D4B9EC33EEF463DF9F5EABAB5B7C862 /* Pods-FabricWithTwitterLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A30D6351842633BC251B3F1126A2085 /* Build configuration list for PBXNativeTarget "Pods-FabricWithTwitterLogin" */;
+			buildPhases = (
+				48CC20FBBA80C0CBF077C2F0DEECB612 /* Sources */,
+				F81BCB8E37548697331ABE5C4D15BBCF /* Frameworks */,
+				0BE0E0C82FC0EF5D2B5243E1F66F8906 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FabricWithTwitterLogin";
+			productName = "Pods-FabricWithTwitterLogin";
+			productReference = 52A7948B18630F3C8EDC6C53DDC85639 /* Pods_FabricWithTwitterLogin.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6565E29A111240BC2137C00E2E0E120F /* Pods-FabricWithTwitterLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F11A34F9795FA79281F05827DA4B4A15 /* Build configuration list for PBXNativeTarget "Pods-FabricWithTwitterLoginTests" */;
+			buildPhases = (
+				A528D3FBBA568330F089A8955F48F0E3 /* Sources */,
+				B7E06C628DCFF1ACEDCBF76C98BCD6C6 /* Frameworks */,
+				BC3A5098D0B9852CCBC098406DAAFF90 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FabricWithTwitterLoginTests";
+			productName = "Pods-FabricWithTwitterLoginTests";
+			productReference = 0ADFD02581C3693D5DFB74ED89A5C487 /* Pods_FabricWithTwitterLoginTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		86F3D13E017D0637BF515789C0DC08E3 /* Pods-FabricWithTwitterLoginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A9AFDB5B53C0C6759531E8270BF6D65 /* Build configuration list for PBXNativeTarget "Pods-FabricWithTwitterLoginUITests" */;
+			buildPhases = (
+				98007E46714C437D8074992837F85329 /* Sources */,
+				A998CE3CEFCCD3C29AEB2857B8F70483 /* Frameworks */,
+				F3D6BFF0C9969CCE5E39283CA11FC382 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FabricWithTwitterLoginUITests";
+			productName = "Pods-FabricWithTwitterLoginUITests";
+			productReference = 5C233F1282DCB4A2C61B17ECA8453392 /* Pods_FabricWithTwitterLoginUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 323F3FF6FCFD2DB60CFF57C78CB601A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D4B9EC33EEF463DF9F5EABAB5B7C862 /* Pods-FabricWithTwitterLogin */,
+				6565E29A111240BC2137C00E2E0E120F /* Pods-FabricWithTwitterLoginTests */,
+				86F3D13E017D0637BF515789C0DC08E3 /* Pods-FabricWithTwitterLoginUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48CC20FBBA80C0CBF077C2F0DEECB612 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F96964E9ECB4D54C3BF15D6B202BA7E2 /* Pods-FabricWithTwitterLogin-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98007E46714C437D8074992837F85329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				769CDFDB062EDA9A35C93DC330CF67FD /* Pods-FabricWithTwitterLoginUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A528D3FBBA568330F089A8955F48F0E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB9F61812CD2A4E0CE43BF38CA058E6F /* Pods-FabricWithTwitterLoginTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1FB93DD524430E6A2B6ADABEADECAE46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37B6B510FAA11C78B420189CA7D20B11 /* Pods-FabricWithTwitterLoginUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FabricWithTwitterLoginUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FabricWithTwitterLoginUITests/Pods-FabricWithTwitterLoginUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FabricWithTwitterLoginUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2304F33DBC5C5CB1295B3F44C9AFB2AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE1731321D2822CFB0ACAF8CC569CAE7 /* Pods-FabricWithTwitterLoginTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FabricWithTwitterLoginTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FabricWithTwitterLoginTests/Pods-FabricWithTwitterLoginTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FabricWithTwitterLoginTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		673254EEAF0B5BF4596080C749645884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C2C14CC0A60F1FF3E106DB4ECFE409D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8C86070DD1A7786A8FB52CE83E20B70 /* Pods-FabricWithTwitterLoginTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FabricWithTwitterLoginTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FabricWithTwitterLoginTests/Pods-FabricWithTwitterLoginTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FabricWithTwitterLoginTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		895784C768C0010497DDD66835D5F7BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D13AB57742AE082C0B1A98F55BB28DD /* Pods-FabricWithTwitterLogin.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FabricWithTwitterLogin/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FabricWithTwitterLogin/Pods-FabricWithTwitterLogin.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FabricWithTwitterLogin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B75C29436FCFEDD204347B20272F8B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BB655D7EF069D2B053FFC3E1626A4A1 /* Pods-FabricWithTwitterLoginUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FabricWithTwitterLoginUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FabricWithTwitterLoginUITests/Pods-FabricWithTwitterLoginUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FabricWithTwitterLoginUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D24B11C54F5689F3ADC76FBC6AB02ECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56FFFCB310F2709CF048931574099EB8 /* Pods-FabricWithTwitterLogin.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FabricWithTwitterLogin/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FabricWithTwitterLogin/Pods-FabricWithTwitterLogin.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FabricWithTwitterLogin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A9AFDB5B53C0C6759531E8270BF6D65 /* Build configuration list for PBXNativeTarget "Pods-FabricWithTwitterLoginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FB93DD524430E6A2B6ADABEADECAE46 /* Debug */,
+				8B75C29436FCFEDD204347B20272F8B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
+				673254EEAF0B5BF4596080C749645884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A30D6351842633BC251B3F1126A2085 /* Build configuration list for PBXNativeTarget "Pods-FabricWithTwitterLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				895784C768C0010497DDD66835D5F7BE /* Debug */,
+				D24B11C54F5689F3ADC76FBC6AB02ECD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F11A34F9795FA79281F05827DA4B4A15 /* Build configuration list for PBXNativeTarget "Pods-FabricWithTwitterLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C2C14CC0A60F1FF3E106DB4ECFE409D /* Debug */,
+				2304F33DBC5C5CB1295B3F44C9AFB2AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
