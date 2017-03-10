@@ -1,5 +1,5 @@
 # iOS_Fabric_Twitter_Login
-```html
+
 <b><u>With use of fabric (fabric.io) allows users to login with twitter in side app.</b></u>
 
 <b><i><u><h3>Installing Pode :</h3></b></i></u> 
@@ -46,6 +46,5 @@ For Detailed Explanations please refer to  https://iosdevcenters.blogspot.com/20
 
 For Detailed Explanations please refer to https://fabric.io/kits/ios/twitterkit/install
 
-```
 
 
